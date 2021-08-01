@@ -92,5 +92,106 @@ article .title_article{
     font-family: var(--fonte-gsw);
     padding: 20px;
 }
+article h2{
+    border-left: 5px solid var(--blue1);
+    padding: 10px 15px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.text_article{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    text-align: justify;
+    padding: 20px;
+}
+.text_article p{
+    margin-bottom: 15px;
+    color: #03038b;
+}
+.colors h2{
+    color:#fff;
+    border-left: 5px solid var(--gold1)
+}
+.colors p{
+    color: var(--gold2);
+}
 
+article ul{
+    padding: 30px;
+}
+article ul li{
+    display: block;
+    margin-bottom: 15px;
+    color: #03038b;
+    list-style: disc;
+}
+article ul li::first-line{
+    font-size: 23px;
+}
+.more_information{
+    padding: 0px 30px 30px 30px;
+}
+.more_information a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #03038b;
+    text-decoration: none;
+}
+.more_information a:hover{
+    background-color: var(--blue2);
+    color: var(--gold2);
+    padding: 5px;
+}
 
+.all_idols ul li{
+    color: var(--gold2);
+}
+.all_idols ul li:nth-child(9){
+    margin-bottom: 0px;
+}
+.more_information2{
+    padding: 15px;
+}
+.more_information2 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+.more_information2 a:hover{
+    background-color: var(--gold1);
+    color: #03038b;
+    padding: 5px;
+}
+
+.text_article p img{
+    object-fit: cover;
+}
+.footer{
+    background-color: var(--blue1);
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    margin-top: 35px;
+}
+.menumobile{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    margin: 40px 0px;
+    margin-right: 20px;
+}
+.mn_line{
+    height: 3px;
+    background-color: var(--blue1)
+}
+
+@media (max-width: 690px){
+    .menumobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
