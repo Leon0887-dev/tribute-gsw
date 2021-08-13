@@ -7,3 +7,20 @@ window.onload = function (){
         }
     })
 }
+
+function subirTela(){
+    window.scrollTo({
+        top:0,
+        behavior:'smooth'
+    });
+}
+
+function decidirBotao(){
+    if (window.scrollY === 0){
+        document.querySelector('.rolagem').style.display = 'none';
+    }else {
+        document.querySelector('.rolagem').style.display = 'block';
+    }
+}
+
+window.addEventListener('scroll', decidirBotao)

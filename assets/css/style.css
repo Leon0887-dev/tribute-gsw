@@ -179,17 +179,27 @@ footer{
 }
 .container_footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 990px;
 }
-.voltar_topo a{
-    color: #fff;
-    text-decoration: none;
+.rolagem{
+    background-color: var(--gold2);
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    cursor: pointer;
+    z-index: 999;
+    text-align: center;
 }
-.voltar_topo a:hover{
-    text-decoration: underline;
-    color: #fff;
+.rolagem img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
 }
+
 .menumobile{
     display: none;
     width: 60px;
